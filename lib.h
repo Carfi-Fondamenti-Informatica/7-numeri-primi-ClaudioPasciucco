@@ -1,1 +1,2 @@
 
+bool Primo(int, int );
