@@ -12,4 +12,3 @@ bool Primo (int i, int n){
         return Primo(i+1,n);
             }
 }
-
