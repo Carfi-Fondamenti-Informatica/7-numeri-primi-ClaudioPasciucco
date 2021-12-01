@@ -1,5 +1,14 @@
 #include <iostream>
-
+#include "lib.h"
+using namespace std;
 int main(){
-  return 0;
+  int n;
+    cin >> n;
+    if (Primo (2,n)) {
+        cout << "numero primo" << endl;
+    } else {
+        cout << "numero non primo" << endl;
+    }
+    return 0;
 }
+
